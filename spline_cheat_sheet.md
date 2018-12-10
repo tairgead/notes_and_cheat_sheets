@@ -5,7 +5,7 @@ and use the data points themselves as potential knots whereas regression splines
 equidistant/equiquantile points.
 * __Smoothing Splines__ 
   - Called 'smoothing' because they 'smooth' rather than interpolate the data. A smoothing spline has a **knot at each data point**, but introduces a penalty for lack of smoothness. If the penalty is zero you get a function that interpolates the data. If the penalty is infinite you get a straight line fitted by ordinary least squares.
-  $$\sum _{i=1}^{n}\{Y_{i}-{\hat {f}}(x_{i})\}^{2}+\lambda \int {\hat {f}}''(x)^{2}\,dx$$
+  https://latex.codecogs.com/gif.latex?%5Csum%20%7Bi%3D1%7D%5E%7Bn%7D%7BY%7Bi%7D-%7B%5Chat%20%7Bf%7D%7D%28x_%7Bi%7D%29%7D%5E%7B2%7D&plus;%5Clambda%20%5Cint%20%7B%5Chat%20%7Bf%7D%7D%27%27%28x%29%5E%7B2%7D%2Cdx
 * __Regression Splines__ 
   - Data is fitted to a set of spline basis functions with a **reduced set of knots**, typically by least squares. No roughness penalty is used.
   -  This is a broader category of splines that includes *B-splines* and *P-splines*. 
