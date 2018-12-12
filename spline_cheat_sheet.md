@@ -35,5 +35,3 @@ equidistant/equiquantile points.
   - Just use a weighted *difference penalty* from the regular P-splines. The weights vary smoothly with $x$ (use a B-spline basis expansion for the weights). 
   $$ \mathcal{P} = \sum_{i=1}^{k-1} \omega_i(\beta_{i-1} - 2\beta_i + \beta_{i+1})^m $$
   
-  
- 
